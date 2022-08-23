@@ -1,0 +1,36 @@
+<ion-header mode="md">
+	<ion-toolbar>
+		<ion-title>QR Menu card</ion-title>
+
+		<ion-buttons slot="start">
+			<ion-menu-button menu="main-menu"></ion-menu-button>
+		</ion-buttons>
+
+		<ion-buttons slot="end">
+			<ion-button slot="icon-only" (click)="startScanning()">
+				<ion-icon name="qr-code-outline" title="Barcode-Scanner"></ion-icon>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<div id="top-container">
+		<ion-item>
+			<ion-avatar slot="start">
+				<img src="../../assets/img/avatar-female.png" />
+			</ion-avatar>
+			<ion-label>
+				<p>Hello ,</p>
+				<h2>User Anonymous</h2>
+			</ion-label>
+		</ion-item>
+	</div>
+
+	<!-- <div class="temp-button">
+		<ion-button href="/restaurents/cf598eff8659ececdfd451b8e5903e04">
+			<ion-icon slot="start" name="add"> </ion-icon>
+			Temp button
+		</ion-button>
+	</div> -->
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "qr-menucard",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

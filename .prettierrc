@@ -1,0 +1,16 @@
+{
+	"printWidth": 150,
+	"tabWidth": 4,
+	"useTabs": true,
+	"trailingComma": "all",
+	"arrowParens": "avoid",
+	"jsxBracketSameLine": true,
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": {
+				"printWidth": 200
+			}
+		}
+	]
+}
