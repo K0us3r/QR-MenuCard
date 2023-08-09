@@ -7,7 +7,7 @@ A andriod application built on ionic framework with angular. College project whi
 
 ## Installations
 * Install [node](https://nodejs.org/en/download/)
-* Intalling node modules - `npm install`
+* Installing node modules - `npm install`
 * Run - `ionic serve`
 
 ## Build
